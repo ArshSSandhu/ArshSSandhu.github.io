@@ -174,7 +174,21 @@ img{
 /* Home animation */
 
 /*=============== BUTTON ===============*/
+.btn{
+  display: inline-block;
+  background-color: var(--first-color);
+  border: 1px solid var(--first-color);
+  color: var(--white);
+  padding: 0.9rem 2.5rem;
+  font-size: var(--large-font-size);
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+}
 
+.btn--transparent{
+  background-color: transparent;
+  color: var(--first-color);
+}
 /* Button hover */
 
 /*=============== ABOUT ===============*/
