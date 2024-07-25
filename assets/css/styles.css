@@ -35,6 +35,24 @@
 /*=============== DARK THEME ===============*/
 
 /*=============== BASE ===============*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+button,
+body{
+  font-family: var(--body-font);
+  font-size: var(--larger-font-size);
+}
+
+body{
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
