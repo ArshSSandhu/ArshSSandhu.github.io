@@ -88,6 +88,11 @@ img{
   padding-inline: 1rem;
 }
 
+.grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
 /*=============== STYLE SWITCHER ===============*/
 
 /*=============== HEADER & NAV ===============*/
@@ -131,6 +136,16 @@ img{
 }
 
 /*=============== HOME ===============*/
+.home{
+  background-color: var(--container-color);
+  padding-block: 9rem 3rem;
+}
+
+.home__container{
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
 
 /* Home animation */
 
