@@ -190,6 +190,15 @@ img{
   color: var(--first-color);
 }
 /* Button hover */
+.btn:hover{
+  background-color: var(--first-color-dark);
+}
+
+.btn--transparent:hover{
+  background-color: var(--first-color);
+  color: var(--white);
+}
+
 
 /*=============== ABOUT ===============*/
 
