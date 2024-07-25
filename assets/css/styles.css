@@ -111,7 +111,19 @@ img{
   align-items: center;
 }
 
+.nav__logo{
+  color: var(--first-color);
+  font-size: var(--h2-font-size);
+}
 
+.nav__list{
+  column-gap: 1.5rem;
+}
+
+.nav__link{
+  color: var(--title-color);
+  transition: all .3s ease;
+}
 
 /* Active link */
 
