@@ -93,7 +93,6 @@ img{
 /*=============== HEADER & NAV ===============*/
 .header{
   position: fixed;
-  background-color: var(--container-color);
   top: 0;
   left: 0;
   width: 100%;
@@ -126,6 +125,10 @@ img{
 }
 
 /* Active link */
+.active-link,
+.nav__link:hover{
+  color: var(--first-color);
+}
 
 /*=============== HOME ===============*/
 
