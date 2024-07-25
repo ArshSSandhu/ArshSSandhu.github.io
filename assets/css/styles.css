@@ -82,10 +82,28 @@ img{
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
+.container{
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
 
 /*=============== STYLE SWITCHER ===============*/
 
 /*=============== HEADER & NAV ===============*/
+.header{
+  position: fixed;
+  background-color: var(--container-color);
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 3px 9px hsla(0, 0, 0, 0.05);
+}
+
+.nav,
+.nav__list{
+  display: flex;
+}
 
 /* Active link */
 
