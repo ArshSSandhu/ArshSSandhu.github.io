@@ -101,6 +101,7 @@ img{
   top: 0;
   left: 0;
   width: 100%;
+  background-color: var(--body-color);
   box-shadow: 0 3px 9px hsla(0, 0, 0, 0.05);
 }
 
@@ -146,6 +147,16 @@ img{
   align-items: center;
 }
 
+.home__small{
+  font-size: var(--large-font-size);
+  font-weight: var(--weight-600);
+  letter-spacing: 1px;
+}
+
+.home__title{
+  font-size: var(--big-font-size);
+  line-height: 1.4;
+}
 
 /* Home animation */
 
