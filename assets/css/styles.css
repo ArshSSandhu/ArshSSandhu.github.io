@@ -105,6 +105,14 @@ img{
   display: flex;
 }
 
+.nav{
+  height: calc(var(--header-height) + 2.25rem);
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
 /* Active link */
 
 /*=============== HOME ===============*/
