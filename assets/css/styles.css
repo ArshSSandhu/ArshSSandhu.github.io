@@ -185,10 +185,22 @@ img{
 
 .home__img-wrapper::before{
   background-color: var(--first-color-light);
+  animation: animate__before 8s ease-in-out infinite;
 }
 
 .home__img-wrapper::after{
   background-color: var(--first-color);
+}
+
+.home__img-wrapper::after,
+.home__img{
+  animation: animate__after 8s ease-in-out infinite;
+}
+
+.home__img{
+  z-index: 10;
+  position: relative;
+  vertical-align: middle;
 }
 
 /* Home animation */
