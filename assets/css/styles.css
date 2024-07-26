@@ -280,6 +280,7 @@ img{
   left: 0;
   height: 100%;
   object-fit: cover;
+  transition: all .3s ease;
 }
 
 .about__img:nth-child(1){
@@ -303,6 +304,9 @@ img{
 }
 
 /* About img hover */
+.about__img-wrapper:hover .about__img{
+  transform: translateY(0);
+}
 
 /*=============== QUALIFICATION ===============*/
 
