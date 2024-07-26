@@ -115,6 +115,11 @@ img{
   margin-bottom: .5rem;
 }
 
+.title-center{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
 /*=============== STYLE SWITCHER ===============*/
 
 /*=============== HEADER & NAV ===============*/
