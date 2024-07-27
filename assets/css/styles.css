@@ -389,7 +389,7 @@ img{
 
 /*=============== QUALIFICATION ===============*/
 .qualification{
-  background-color: var(--container-color);
+  background-color: var(--body-color);
 }
 
 .resume__container{
