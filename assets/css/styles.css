@@ -129,7 +129,8 @@ img{
   left: 0;
   width: 100%;
   background-color: var(--body-color);
-  box-shadow: 0 3px 9px hsla(0, 0, 0, 0.05);
+  box-shadow: 0 3px 9px hsla(0, 0%, 0%, 0.05);
+  z-index: 100;
 }
 
 .nav,
@@ -610,6 +611,14 @@ img{
 
 
 /* Work hover */
+.work__card:hover .work__details{
+  opacity: 1;
+}
+
+.work__card:hover :is(.work__title, .work__description){
+  transform: translateY(0);
+}
+
 
 /*=============== TESTIMONIALS ===============*/
 
