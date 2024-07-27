@@ -504,6 +504,22 @@ img{
 }
 
 /*=============== SKILLS ===============*/
+.skills{
+  background-color: var(--container-color);
+}
+
+.skills__container{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.skills__bar,
+.skills__percentage{
+  height: 2px;
+}
+
+.skills__bar{
+  background-color: var(--border-color);
+}
 
 /*=============== PORTFOLIO ===============*/
 
