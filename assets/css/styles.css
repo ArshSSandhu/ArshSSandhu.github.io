@@ -289,7 +289,31 @@ img{
   background-color: var(--first-color);
   color: var(--white);
 }
+/*=============== IMAGE ===============*/
 
+.image__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.image__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1; /* Optional: Adjusts the width of each container */
+}
+
+.image__container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image__text {
+  text-align: center;
+  margin-top: 10px; /* Adjust the margin as needed */
+  color: var(--first-color);
+}
 
 /*=============== ABOUT ===============*/
 .about__container{
