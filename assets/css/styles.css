@@ -541,6 +541,11 @@ img{
   grid-template-columns: repeat(3, 1fr);
 }
 
+.skills__img{
+  height: 30px;
+  width: 30px;
+}
+
 .skills__titles{
   display: flex;
   justify-content: space-between;
@@ -552,9 +557,7 @@ img{
   padding-inline: 1.5rem;
 }
 
-.skills__name{
-  font-size: var(--larger-font-size);
-}
+
 
 .skills__no{
   color: var(--title-color);
