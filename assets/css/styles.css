@@ -470,6 +470,16 @@ img{
   gap: 21.5rem;
 }
 
+.exp__contentC{
+  display: flex;
+  gap: 14rem;
+}
+
+.exp__contentD{
+  display: flex;
+  gap: 12rem;
+}
+
 .resume__item:not(:first-child){
   border-right: 2px solid var(--border-color);
 }
