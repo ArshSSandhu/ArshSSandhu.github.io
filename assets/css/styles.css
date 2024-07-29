@@ -435,6 +435,31 @@ img{
   border-bottom: 2px solid var(--border-color);
 }
 
+.exp__logo{
+  height: 40px;
+  width: 40px;
+}
+
+.exp__contents{
+  display: flex;
+  gap: 19rem;
+}
+
+.exp__content2{
+  display: flex;
+  gap: 20.6rem;
+}
+
+.exp__content3{
+  display: flex;
+  gap: 23.6rem;
+}
+
+.exp__content4{
+  display: flex;
+  gap: 16.5rem;
+}
+
 .resume__item:not(:first-child){
   border-right: 2px solid var(--border-color);
 }
