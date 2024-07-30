@@ -135,6 +135,12 @@ img{
   background-color: var(--container-color);
   border-radius: 0.5rem;
   z-index: 1000;
+  transform: translateX(100%);
+  transition: all 0.3s ease;
+}
+
+#toggler:checked ~ .style__switcher{
+  transform: translateX(0);
 }
 
 .style__switcher-toggler,
@@ -171,6 +177,11 @@ img{
 
 #day-night:checked ~ * .fa-moon{
   display: block;
+}
+
+.style__switcher-title{
+  font-size: var(--large-font-size);
+  margin-bottom: 0.75rem;
 }
 
 
