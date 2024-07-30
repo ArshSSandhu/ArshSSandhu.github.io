@@ -150,7 +150,29 @@ img{
   cursor: pointer;
   display: grid;
   place-items: center;
+  transition: all 0.3s ease;
 }
+
+.style__switcher-toggler{
+  top: 7%;
+}
+
+.style__switcher-theme{
+  bottom: 7%;
+}
+
+.style__switcher-theme .fa-moon{
+  display: none;
+}
+
+#day-night:checked ~ * .fa-sun{
+  display: none;
+}
+
+#day-night:checked ~ * .fa-moon{
+  display: block;
+}
+
 
 .style__switcher-colors{
   display: grid;
