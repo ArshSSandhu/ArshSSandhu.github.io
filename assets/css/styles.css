@@ -125,6 +125,12 @@ img{
 }
 
 /*=============== STYLE SWITCHER ===============*/
+.style__switcher{
+  position: fixed;
+  right: 0;
+  bottom: 20%;
+  
+}
 
 /*=============== HEADER & NAV ===============*/
 .header{
