@@ -291,7 +291,7 @@ img{
 }
 /*=============== IMAGE ===============*/
 
-.image__wrapper {
+.image__wrapper1 {
   display: flex;
   justify-content: space-between;
   gap: 20px; /* Adjust the gap as needed */
@@ -601,20 +601,32 @@ img{
 }
 
 /*=============== PORTFOLIO ===============*/
-.work__container{
+
+
+.work__container {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 2rem; 
 }
 
-.work__card{
+.work__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work__card {
   position: relative;
   cursor: pointer;
 }
 
-.work__img{
+.work__img {
   vertical-align: middle;
+  width: 100%;
+  border-radius: .5rem;
 }
 
-.work__details{
+.work__details {
   position: absolute;
   inset: 0;
   background-color: hsla(0, 0%, 0%, 0.5);
@@ -627,32 +639,38 @@ img{
 }
 
 .work__img,
-.work__details{
+.work__details {
   border-radius: .5rem;
 }
 
-.work__title{
+.work__title {
   font-size: var(--h3-font-size);
 }
 
 .work__title,
-.work__description{
+.work__description {
   color: var(--white);
   transform: translateY(1.5rem);
   transition: all .3s ease-in-out;
 }
 
-.work__description{
+.work__description {
   font-size: var(--large-font-size);
 }
 
+.work__extra-text {
+  text-align: center;
+  font-size: var(--large-font-size);
+  color: var(--first-color);
+  margin-top: 1rem;
+}
 
 /* Work hover */
-.work__card:hover .work__details{
+.work__card:hover .work__details {
   opacity: 1;
 }
 
-.work__card:hover :is(.work__title, .work__description){
+.work__card:hover :is(.work__title, .work__description) {
   transform: translateY(0);
 }
 
