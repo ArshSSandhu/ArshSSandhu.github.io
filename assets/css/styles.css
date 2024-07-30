@@ -719,10 +719,6 @@ img{
 }
 
 /*=============== CONTACT ===============*/
-.contact__container{
-  grid-template-columns: 5fr 7fr;
-  align-items: flex-start;
-}
 
 .contact__item{
   display: flex;
@@ -754,22 +750,32 @@ img{
   column-gap: 1.25rem;
 }
 
-.input__control{
-  color: var(--title-color);
-  background-color: var(--container-color);
-  padding: 0.9rem 0.75rem;
-  width: 100%;
-  border-radius: 0.5rem;
-  margin-bottom: 1.25rem;
+.contact__social-links {
+  display:flex;
+  align-items: center;
+  column-gap: 11rem; /* Space between icons */
 }
 
-.textarea{
-  height: 140px;
-  resize: none;
+.contact__social-links::before {
+  content: '';
+  background-color: var(--text-color);
+  width: 60px;
+  height: 2px;
 }
 
-.contact__btn{
-  float: right;
+.contact__social-link {
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.contact__social-link:hover {
+  color: var(--first-color);
+}
+
+.contact__details{
+  display: inline-flex;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60rem;
 }
 
 /*=============== FOOTER ===============*/
