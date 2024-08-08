@@ -1,4 +1,4 @@
 # ArshSSandhu.github.io
 
 ## Purpose
-Portfolio Website 
+Portfolio Websit
