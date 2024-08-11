@@ -6,15 +6,9 @@
 - **Dark/Night Mode**
 - **Color Changer Plugin**
 
-## Sections
-- **About Me**
-- **Education**
-- **Experience**
-- **Skills**
-- **Projects**
-- **Testimonials**
-- **Contact Me**
-- **Social Media Links**
+## Technologies Used
+
+<img src="https://skillicons.dev/icons?i=css,html,js" />
 
 ## Take a Peek
 **Interactive Sections**
