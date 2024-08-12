@@ -729,6 +729,12 @@ input[type='checkbox']{
 
 .skills__container{
   grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  gap: 1.5rem;
+}
+
+.skills__item {
+  text-align: center;
 }
 
 .skills__img{
@@ -757,6 +763,8 @@ input[type='checkbox']{
 .skills__description{
   margin-block: 1rem 1.8rem;
 }
+
+.ski
 
 .skills__bar,
 .skills__percentage{
