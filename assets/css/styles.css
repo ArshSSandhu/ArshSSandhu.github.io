@@ -325,10 +325,11 @@ input[type='checkbox']{
   display: flex;
 }
 
-.nav{
-  height: calc(var(--header-height) + 2.25rem);
+.nav {
+  height: var(--header-height); /*  simplified */
   justify-content: space-between;
   align-items: center;
+  padding-block: 0.75rem; /* subtle spacing */
 }
 
 .nav__logo{
@@ -402,7 +403,7 @@ input[type='checkbox']{
 /*=============== HOME ===============*/
 .home{
   background-color: var(--container-color);
-  padding-block: 9rem 3rem;
+  padding-block: 7rem 3rem;
 }
 
 .home__container{
@@ -1447,7 +1448,20 @@ input[type='checkbox']{
 
 /* For small devices */
 @media screen and (max-width: 576px) {
+  .home {
+    padding-block: 8rem 3rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
+}
+
+
+
+
+:target::before {
+  content: "";
+  display: block;
+  height: var(--header-height);
+  margin-top: calc(var(--header-height) * -1);
 }
