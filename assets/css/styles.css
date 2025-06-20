@@ -1159,6 +1159,11 @@ input[type='checkbox']{
   font-size: var(--large-font-size);
   color: var(--first-color);
   margin-top: 1rem;
+  display: inline-block;
+  position: relative;
+  padding: 0.3rem 0.8rem;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 0.4rem;
 }
 
 /* Work hover */
@@ -1168,6 +1173,10 @@ input[type='checkbox']{
 
 .work__card:hover :is(.work__title, .work__description) {
   transform: translateY(0);
+}
+
+.work__extra-text:hover {
+  background-color: rgba(0, 123, 255, 0.1); 
 }
 
 /*=============== RESPONSIVE: PORTFOLIO SECTION ===============*/
