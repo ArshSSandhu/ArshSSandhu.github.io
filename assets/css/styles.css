@@ -39,6 +39,7 @@
   --body-color: hsl(0 , 0, 100%);
   --container-color: hsl(266, 78% , 98%);
   --border-color: hsl(0 , 0% , 87%);
+  --header-bg: hsl(266, 78% , 98%);  
 }
 
 /*=============== BASE ===============*/
@@ -315,9 +316,11 @@ input[type='checkbox']{
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--body-color);
+  background-color: var(--header-bg, var(--body-color));
   box-shadow: 0 3px 9px hsla(0, 0%, 0%, 0.05);
   z-index: 100;
+  border-bottom: 1px solid var(--border-color);
+  
 }
 
 .nav,
