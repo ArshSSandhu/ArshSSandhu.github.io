@@ -39,6 +39,7 @@
   --body-color: hsl(0 , 0, 100%);
   --container-color: hsl(266, 78% , 98%);
   --border-color: hsl(0 , 0% , 87%);
+  --header-bg: hsl(266, 78% , 98%);  
 }
 
 /*=============== BASE ===============*/
@@ -315,9 +316,11 @@ input[type='checkbox']{
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--body-color);
+  background-color: var(--header-bg, var(--body-color));
   box-shadow: 0 3px 9px hsla(0, 0%, 0%, 0.05);
   z-index: 100;
+  border-bottom: 1px solid var(--border-color);
+  
 }
 
 .nav,
@@ -1159,6 +1162,11 @@ input[type='checkbox']{
   font-size: var(--large-font-size);
   color: var(--first-color);
   margin-top: 1rem;
+  display: inline-block;
+  position: relative;
+  padding: 0.3rem 0.8rem;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 0.4rem;
 }
 
 /* Work hover */
@@ -1168,6 +1176,10 @@ input[type='checkbox']{
 
 .work__card:hover :is(.work__title, .work__description) {
   transform: translateY(0);
+}
+
+.work__extra-text:hover {
+  background-color: rgba(0, 123, 255, 0.1); 
 }
 
 /*=============== RESPONSIVE: PORTFOLIO SECTION ===============*/
